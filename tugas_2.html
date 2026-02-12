@@ -22,7 +22,7 @@
 <body>
     <div class="hero">
         <div class="overlay d-flex justify-content-center align-items-center text-center">
-            <div class="text-white">
+            <div class="text-white shadow">
                 <h1 class="display-5 fw-bold">Sistem Manajemen Siswa</h1>
                 <p class="fs-4">Kelola data kehadiran profil, dan status akademik dengan lebih mudah dan efisien</p>
                 <button class="btn btn-primary btn-lg">Lihat Tabel</button>
@@ -32,7 +32,7 @@
     </div>
 <div class="container mt-4">
     <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
+        <ol class="breadcrumb border p-3 shadow">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
             <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
             <li class="breadcrumb-item"><a href="#visi">Visi Misi</a></li>
@@ -156,17 +156,17 @@
         </div>
     </div>
 </div>
-<!-- Tabel -->
+<!-- ini Tabel -->
  <div class="container mt-5 text-center">
         <h2 class="display-5 fw-bold"> Tabel Data Siswa</h2>
         <p class="fs-4">Contoh Penggunaan Tabel dan Data Bootstrap</p>
 <!-- ini alert -->
-         <div class="alert alert-info alert-dismissible fade show" role="alert">
+    <div class="alert alert-info alert-dismissible fade show" role="alert">
         <strong>Info!</strong> Klik tombol <strong>Edit</strong> untuk mengubah data profil siswa.
         <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
     </div>
         
-
+<!-- ini tabel -->
 <table class="table table-bordered table-striped table-hover align-middle text-center">
   <thead>
     <tr class="table table-dark">
@@ -220,21 +220,24 @@
     </tr>
   </tbody>
 </table>
-<div class="container mt-4 justify-content-center d-flex ">
-    <nav aria-label="Pagination">
-      <ul class="pagination">
-        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-        <li class="page-item"><a class="page-link" href="#">1</a></li>
-        <li class="page-item"><a class="page-link" href="#">2</a></li>
-        <li class="page-item"><a class="page-link" href="#">3</a></li>
-        <li class="page-item"><a class="page-link" href="#">Next</a></li>
-      </ul>
-    </nav>
-    </div>
-    </div>
+<!-- ini pagination -->
+<nav aria-label="Page navigation example">
+  <ul class="pagination pagination-sm justify-content-center mt-4">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+    </li>  
+    <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>   
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+</nav>
+<!-- ini tombol akhir -->
     <div class=" d-block justify-content-center align-items-center text-center">
         <button class="btn btn-primary btn-lg"> Tambah Data Siswa</button>
         <button class="btn btn-outline-secondary btn-lg">Ekport Ke Excel</button>
     </div>
 </body>
+<!-- ini agar bisa diklik pada bagian alert -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </html>
