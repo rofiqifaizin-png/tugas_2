@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <style>
+        :root {
+            --primary-blue: #2b6df5;
+            --dark-bg: #1a1d21;
+        }
+        .hero {
+            background:linear-gradient(rgba(13, 110, 253, 0.8), rgba(13, 110, 253, 0.8)), url(iniwall.jpg);
+            background-size: cover;
+            background-position: center;
+            min-height: 30vh;
+        }
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+            min-height: 30vh;
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- ini navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#"><img src="logocoy.png" alt="" width="50" height="50" class="d-inline-block align-text-center me-2">SMK DIGITAL</a>
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#mengapa-kami"
+                        >Beranda</a
+                    >
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#visi">Visi Misi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#data">Data Siswa</a>
+                </li>
+                <li>
+                  
+                  <div class="dropdown">
+                    <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Jurusan
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item" href="#PPLG">PPLG</a></li>
+                      <li><a class="dropdown-item" href="#TJKT">TJKT</a></li>
+                      <li><a class="dropdown-item" href="#KULINER">KULINER</a></li>
+                      <li><a class="dropdown-item" href="#BUSANA">BUSANA</a></li>
+                      <li><a class="dropdown-item" href="#OTOMOTIF">OTOMOTIF</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Lihat Semua</a></li>
+                    </ul>
+                  </div>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="hero">
+        <div class="overlay d-flex justify-content-center align-items-center text-center">
+            <div class="text-white shadow">
+                <h1 class="display-5 fw-bold">TATA BUSANA & DESAIN MODE</h1>
+                <p class="fs-4" >Mencetak desainer muda yang kreatif, inovatif, dan terampil dalam menciptakan karya fashion berkualitas tinggi yang siap bersaing di industri kreatif.</p>
+                <button class="btn btn-primary btn-lg" onclick="window.location.href='#data'">Data Siswa</button>
+                <button class="btn btn-outline-light btn-lg position-relative">Statistik
+                  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">Baru
+                    <span class="visually-hidden">unread messages</span>
+                  </span>
+                </button>
+            </div>
+        </div>
+    </div>
+<section class="container my-5">
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="card border-0 shadow-sm p-4 h-100">
+                <h2 class="fw-bold mb-4">Membangun Masa Depan Melalui Kode</h2>
+                <p class="text-muted mb-5">
+                    Tata Busana merupakan program keahlian yang memepelajari mengenai proses pembuatan berbagai pakaian maupun aksesoris...
+                </p>
+
+                <div class="row mb-5">
+                    <div class="col-md-6 mb-3">
+                        <div class="d-flex align-items-center">
+                            <div class="bg-light p-3 rounded me-3 text-primary">
+                                <i class="bi bi-handbag-fill"></i>
+                            </div>
+                            <div>
+                                <h5 class="fw-bold mb-1">Fashion Design</h5>
+                                <small class="text-muted">Pembuatan konsep ilustrasi, sketsa mode, dan pemilihan bahan tekstil yang tepat.</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="d-flex align-items-center">
+                            <div class="bg-light p-3 rounded me-3 text-success">
+                                <i class="bi bi-incognito"></i>
+                            </div>
+                            <div>
+                                <h5 class="fw-bold mb-1">Dressmaking</h5>
+                                <small class="text-muted">Teknik konstruksi pola dan produksi busana berkualitas butik dengan standar industri.</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h4 class="fw-bold mb-3">Fasilitas Unggulan</h4>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                        LLaboratorium Menjahit (Industrial Machine)
+                        <span class="badge bg-primary rounded-pill">3 Lab</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                        Studio Gambar & Desain Mode
+                        <span class="badge bg-primary rounded-pill">Lengkap</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                        Galeri Produk & Fashion Store
+                        <span class="badge bg-primary rounded-pill">Showroom</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="card border-0 shadow-sm mb-4">
+                <div class="card-header bg-dark text-white text-center py-3">
+                    <h5 class="mb-0">Status Pendaftaran</h5>
+                </div>
+                <div class="card-body">
+                    <div class="d-flex justify-content-between mb-1">
+                        <small class="fw-bold">Kuota Terisi</small>
+                        <small class="fw-bold">85%</small>
+                    </div>
+                    <div class="progress mb-4" style="height: 10px;">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 85%"></div>
+                    </div>
+                    <a href="#" class="btn btn-primary w-100 py-2 fw-bold mb-2">DAFTAR SEKARANG</a>
+                    <button class="btn btn-light w-100 text-muted small">← Kembali</button>
+                </div>
+            </div>
+
+            <div class="card border-0 shadow-sm overflow-hidden">
+                <img src="Busana.jpg" class="card-img-top" alt="Alumni">
+                <div class="card-body">
+                    <p class="fst-italic text-muted">"Berkat sekolah ini, saya sekarang punya brand fashion sendiri dan mengerti cara produksi dari nol."</p>
+                    <p class="fw-bold mb-0">- Siti Nurhaliza, Alumni 2023</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</html>
